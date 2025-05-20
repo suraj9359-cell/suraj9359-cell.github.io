@@ -1,0 +1,86 @@
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    header.hero {
+      background: #1e90ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+    }
+
+    section.section {
+      padding: 30px 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    #welcome {
+      background-color: #fefefe;
+    }
+
+    #about {
+      background-color: #f9f871;
+    }
+
+    #achievements {
+      background-color: #d4edda;
+    }
+
+    #goals {
+      background-color: #d1ecf1;
+    }
+
+    #personal {
+      background-color: #f8d7da;
+    }
+
+    footer.footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .profile-photo {
+      max-width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      z-index: 3;
+      position: relative;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
